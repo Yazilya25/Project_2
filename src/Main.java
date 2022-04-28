@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        int amount = 20_000;
-        int percent = 20;
-        int bonus = amount / percent;
+        int ticketPrice = 10_000;
+        int rate = 20;
+        int bonus = ticketPrice / rate;
         System.out.println("Бонусные мили:" + bonus);
     }
 }
